@@ -1,0 +1,139 @@
+a {
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* --- Bagian header --- */
+header {
+    height: 90px;
+    width: 100%;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header-left {
+    float: left;
+    margin-right: 70px;
+    padding-top: 5px;
+}
+.header-menu {
+    float: left;
+    margin: 0 auto;
+}
+.header-menu a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 30px;
+    padding: 15px 25px;
+    color: #555555;
+    float: left;
+    transition: all 1s;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.header-menu a:hover {
+    background-color: #787a91;
+    border-radius: 20px;
+}
+.header-right {
+    float: right;
+    margin: 0 auto;
+}
+.header-right form{
+    line-height: 60px;
+    padding: 15px 25px;
+    display: flexbox;
+}
+.header-right form input {
+    border-color: #4d4d4d;
+    border-radius: 7px;
+}
+
+/* --- Bagian body --- */
+body {
+    background-color: #eee;
+}
+.top-wrapper {
+    padding-top: 90px; 
+    padding-bottom: 90px;
+}
+.isi-artikel {
+    height: 400px;
+    padding: 50px 20px;
+    margin-bottom: 100px;
+}
+.isi-artikel img {
+    float: left;
+    width: 50%;
+}
+.artikel-text {
+    float: right;
+    padding-top: 40px;
+    width: 30%;
+}
+.artikel-text h1{
+    font-size: 32px;
+}
+.button {
+    padding: 12px 24px;
+    display: inline-block;
+    color: #FFFFFF;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
+.button:hover{
+    opacity: 1;
+}
+.message {
+    padding: 12px 30px;
+    background-color: #555555;
+    cursor: pointer;
+    box-shadow: 2px 3px #787a91;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+.message:active {
+    position: relative;
+    top: 3px;
+    box-shadow: none;
+}
+
+/* --- Bagian Footer --- */
+footer {
+    clear: both;
+    height: 50px;
+    position: bottom;
+}
+footer p{
+    display: inline;
+    color: #555555;
+    font-size: 17px;
+    padding: 0 70px;
+    margin: 0 10px;
+}
+.bi {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.menu-icon {
+    color: #000;
+    float:right;
+    display: none;
+    font-size: 25px;
+    padding: 32px 20px;
+}

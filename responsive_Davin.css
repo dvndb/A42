@@ -1,0 +1,103 @@
+/* For Tablets */
+@media all and (max-width: 1000px) {
+    .isi-artikel img{
+        width: 50%;
+      }
+      .artikel-text {
+          width: 40%;
+      } 
+      
+      footer p {
+        display: inline;
+        padding: 0px 10px;
+        font-size: 14px;
+      }
+      
+      .top-wrapper {
+        text-align: left;
+      }
+      
+      .header-menu {
+        display:none;
+      }
+      
+      .menu-icon {
+        display:block;
+        margin-right: 30px;
+      }
+      
+      .artikel-text {
+          padding-top: 0;
+      }
+      .artikel-text h1 {
+        font-size: 24px;
+        line-height: 20px;
+      }
+      .artikel-text h3 {
+          font-size: 16px;
+          line-height: 20px;
+      }
+      
+      .top-wrapper p {
+        font-size: 15px;
+        line-height: 20px;
+      }
+      form{
+          display: none;
+        }
+      .message {
+          width: 50%;
+          margin: 5px 5px;
+      }
+  }
+  
+  /* For Smartphones */
+  @media all and (max-width: 670px) {
+    .kotak-artikel {
+        width: 100%;
+    }
+    .isi-artikel{
+        flex-direction: column;
+    }
+
+    footer p {
+        display: inline-flex;
+        font-size: 14px;
+      }
+    
+    .top-wrapper {
+      text-align: left;
+    }
+
+    .header-menu {
+      display:none;
+    }
+    
+    .menu-icon {
+      display:block;
+    }
+    
+    .artikel-text {
+        padding-top: 0;
+    }
+    .artikel-text h1 {
+      font-size: 16px;
+      line-height: 16px;
+    }
+    .artikel-text h3 {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    
+    .top-wrapper p {
+      font-size: 14px;
+      line-height: 14px;
+    }
+    form{
+        display: none;
+      }
+    .message {
+        width: 50%;
+        margin: 5px 5px;
+    }
+  }    
